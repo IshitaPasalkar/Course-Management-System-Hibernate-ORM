@@ -13,15 +13,15 @@
         </property>
 
         <property name="hibernate.connection.url">
-            jdbc:postgresql://localhost:5432/coursedb
+            ${DB_URL}
         </property>
 
         <property name="hibernate.connection.username">
-            postgres
+            ${DB_USERNAME}
         </property>
 
         <property name="hibernate.connection.password">
-            root
+            ${DB_PASSWORD}
         </property>
 
         <property name="hibernate.dialect">
